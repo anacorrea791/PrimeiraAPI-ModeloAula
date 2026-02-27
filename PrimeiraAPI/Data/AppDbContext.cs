@@ -15,5 +15,7 @@ namespace PrimeiraAPI.Data
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<AlunoCurso> AlunoCursos { get; set; }
+        public DbSet<Disciplina> Disciplinas { get; set; }
+        public DbSet<DisciplinaCurso> DisciplinaCursos { get; set; }
     }
 }
