@@ -9,6 +9,7 @@ namespace PrimeiraAPI.Models
         public string? Nome { get; set; }
         public int CargaHoraria { get; set; }
         public int Semestre { get; set; }
+        public int Nota { get; set; }
         public ICollection<Curso> Cursos { get; set; } = new List<Curso>();
 
     }
